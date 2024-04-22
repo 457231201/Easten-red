@@ -23,8 +23,7 @@ can:🚁 🏃‍♀️ 🛹 🚲 🛴 🚕 👨‍🦽
 东方红红遍了半边天，所以当程序开启时天空会变成红色🟥。
 东方红太阳升，开启的法阵为红色的太阳🌞，寓意着新时代的开始。
 
-![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/e021e3b1b56993ff33b49e186c25b83.png?raw=true)
-<img src="your_image_url.jpg" alt="Description" width="300">
+<img src="image/e021e3b1b56993ff33b49e186c25b83.png" alt="Description" width="400">
 
 ## How does it work它是如何工作的
 ### 脚本
