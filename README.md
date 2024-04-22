@@ -24,6 +24,7 @@ can:🚁 🏃‍♀️ 🛹 🚲 🛴 🚕 👨‍🦽
 东方红太阳升，开启的法阵为红色的太阳🌞，寓意着新时代的开始。
 
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/e021e3b1b56993ff33b49e186c25b83.png?raw=true)
+<img src="your_image_url.jpg" alt="Description" width="300">
 
 ## How does it work它是如何工作的
 ### 脚本
@@ -31,6 +32,7 @@ can:🚁 🏃‍♀️ 🛹 🚲 🛴 🚕 👨‍🦽
 
 （因为是自己敲的大框架所以都堆到一个里面了 下次注意😫）
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/chufa.png?raw=true)
+<img src="image/chufa.png" alt="Description" width="350">
 
 :bangbang: 游戏建议定制内容：（写的时候突然想起可以搞成public接口 算了就先这样作业要截止了）
 - 两法阵随机距离 
@@ -43,20 +45,27 @@ can:🚁 🏃‍♀️ 🛹 🚲 🛴 🚕 👨‍🦽
     将1f改为你想要的高度 单位为米
 
 😍语义遮蔽脚本 里面最好不要改 我只改了固定为天空识别
-![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/%E8%AF%AD%E4%B9%89%E9%81%AE%E8%94%BD.png?raw=true)
+
+<img src="image/语义遮蔽.png" alt="Description" width="350">
+<img src="image/Shader.png" alt="Description" width="350">
+
 
 ### UI
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/UI.png?raw=true)
-![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/UI%E5%88%97%E8%A1%A8.png?raw=true)
+
+<img src="image/123.png" alt="Description" width="350">
 - Speed速度
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/Speed.png?raw=true)
+<img src="image/Speed.png" alt="Description" width="350">
 
 将摄像机每秒位移与表盘旋转值和文本关联 当超过20m每秒时会到20处停止
 
 - time时间
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/Time.png?raw=true)
+<img src="image/Time.png" alt="Description" width="350">
 
 旗子用于点击开启holokit双目渲染 
+<img src="image/time (2).png" alt="Description" width="250">
 
 :bangbang: 游戏建议定制内容：
 
@@ -68,23 +77,25 @@ can:🚁 🏃‍♀️ 🛹 🚲 🛴 🚕 👨‍🦽
 
 - hight高度
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/High.png?raw=true)
+<img src="image/High.png" alt="Description" width="350">
 
 可以查看当前高度，白条的高度随高度变化而变化 最高可显示600m
 
 - 面板
 因为划分好了面板和其轴点，所以支持竖屏游玩
-![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/shu.jpg?raw=true)
 
 ### 射线检测
-![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/shexian.png?raw=true)
-![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/pingm.png?raw=true)
+<img src="image/shexian.png" alt="Description" width="300">
+<img src="image/pingm.png" alt="Description" width="300">
 检测障碍物距离 用于避开障碍重新生成法阵
-![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/4.png?raw=true)
+
+<img src="image/4.png" alt="Description" width="350">
+
 
 chufa脚本中可修改识别距离和再生产距离
 
 ### Holokit双目渲染
-![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/Holokit%E7%BB%84%E4%BB%B6.png?raw=true)
+<img src="image/Holokit组件.png" alt="Description" width="300">
 
 开启按钮在Time旁边的那个小旗子上
 
