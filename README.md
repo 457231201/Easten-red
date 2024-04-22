@@ -25,6 +25,32 @@ can:🚁 🏃‍♀️ 🛹 🚲 🛴 🚕 👨‍🦽
 
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/e021e3b1b56993ff33b49e186c25b83.png?raw=true)
 
+## How does it work它是如何工作的
+### 脚本
+🥰触发脚本（chufa） 内含箭头生成 法阵生成 分数计算 高度到达时开启游戏等大部分功能
+
+（因为是自己敲的大框架所以都堆到一个里面了 下次注意😫）
+![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/chufa.png?raw=true)
+
+:bangbang: 游戏建议定制内容：（写的时候突然想起可以搞成public接口 算了就先这样作业要截止了）
+- 两法阵随机距离 
+    c117（Vector3 move = new Vector3(0f,0.2f,Random.Range(2f,4f));
+
+    将值设定成你想要法阵随机生成的变化范围
+- 游戏开始高度 
+    chufa c101（if (man.transform.position.y > initialYPos + 1f && hasMovedUp==false)）
+
+    将1f改为你想要的高度 单位为米
+
+😍语义遮蔽脚本 里面最好不要改 我只改了固定为天空识别
+![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/%E8%AF%AD%E4%B9%89%E9%81%AE%E8%94%BD.png?raw=true)
+
+### UI
+![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/UI.png?raw=true)
+![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/UI%E5%88%97%E8%A1%A8.png?raw=true)
+
+
+
 
 ## 👹RoadMap
 
