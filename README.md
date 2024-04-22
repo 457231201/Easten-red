@@ -34,11 +34,11 @@ can:🚁 🏃‍♀️ 🛹 🚲 🛴 🚕 👨‍🦽
 
 :bangbang: 游戏建议定制内容：（写的时候突然想起可以搞成public接口 算了就先这样作业要截止了）
 - 两法阵随机距离 
-    c117（Vector3 move = new Vector3(0f,0.2f,Random.Range(2f,4f));
+    chufa脚本 c117（Vector3 move = new Vector3(0f,0.2f,Random.Range(2f,4f));
 
     将值设定成你想要法阵随机生成的变化范围
 - 游戏开始高度 
-    chufa c101（if (man.transform.position.y > initialYPos + 1f && hasMovedUp==false)）
+    chufa脚本 c101（if (man.transform.position.y > initialYPos + 1f && hasMovedUp==false)）
 
     将1f改为你想要的高度 单位为米
 
@@ -48,6 +48,35 @@ can:🚁 🏃‍♀️ 🛹 🚲 🛴 🚕 👨‍🦽
 ### UI
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/UI.png?raw=true)
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/UI%E5%88%97%E8%A1%A8.png?raw=true)
+- Speed速度
+![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/Speed.png?raw=true)
+![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/speed%20(2).png?raw=true)
+将摄像机每秒位移与表盘旋转值和文本关联 当超过20m每秒时会到20处停止
+
+- time时间
+![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/Time.png?raw=true)
+![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/time%20(2).png?raw=true)
+
+旗子用于点击开启holokit双目渲染 
+
+:bangbang: 游戏建议定制内容：
+
+时间总数
+    
+    time脚本 c8 (public static int allTime = 60;) 
+    
+    将值设定成你想要的秒数 
+
+- hight高度
+![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/High.png?raw=true)
+![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/high%20(2).png?raw=true)
+可以查看当前高度，白条的高度随高度变化而变化 最高可显示600m
+
+- 面板
+因为划分好了面板和其轴点，所以支持竖屏游玩
+![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/shu.jpg?raw=true)
+
+
 
 
 
