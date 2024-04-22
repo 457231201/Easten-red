@@ -31,8 +31,7 @@ can:🚁 🏃‍♀️ 🛹 🚲 🛴 🚕 👨‍🦽
 🥰触发脚本（chufa） 内含箭头生成 法阵生成 分数计算 高度到达时开启游戏等大部分功能
 
 （因为是自己敲的大框架所以都堆到一个里面了 下次注意😫）
-![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/chufa.png?raw=true)
-<img src="image/chufa.png" alt="Description" width="350">
+<img src="image/chufa.png" alt="Description" width="400">
 
 :bangbang: 游戏建议定制内容：（写的时候突然想起可以搞成public接口 算了就先这样作业要截止了）
 - 两法阵随机距离 
@@ -44,10 +43,16 @@ can:🚁 🏃‍♀️ 🛹 🚲 🛴 🚕 👨‍🦽
 
     将1f改为你想要的高度 单位为米
 
+- 时间总数
+    
+    time脚本 c8 (public static int allTime = 60;) 
+    
+    将值设定成你想要的秒数 
+
 😍语义遮蔽脚本 里面最好不要改 我只改了固定为天空识别
 
-<img src="image/语义遮蔽.png" alt="Description" width="350">
-<img src="image/Shader.png" alt="Description" width="350">
+<img src="image/语义遮蔽.png" alt="Description" width="270">
+<img src="image/Shader.png" alt="Description" width="270">
 
 
 ### UI
@@ -55,47 +60,35 @@ can:🚁 🏃‍♀️ 🛹 🚲 🛴 🚕 👨‍🦽
 
 <img src="image/123.png" alt="Description" width="350">
 - Speed速度
-![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/Speed.png?raw=true)
-<img src="image/Speed.png" alt="Description" width="350">
 
+<img src="image/speed (2).png" alt="Description" width="300">
 将摄像机每秒位移与表盘旋转值和文本关联 当超过20m每秒时会到20处停止
 
 - time时间
-![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/Time.png?raw=true)
-<img src="image/Time.png" alt="Description" width="350">
 
 旗子用于点击开启holokit双目渲染 
 <img src="image/time (2).png" alt="Description" width="250">
 
-:bangbang: 游戏建议定制内容：
-
-时间总数
-    
-    time脚本 c8 (public static int allTime = 60;) 
-    
-    将值设定成你想要的秒数 
-
 - hight高度
-![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/High.png?raw=true)
-<img src="image/High.png" alt="Description" width="350">
 
-可以查看当前高度，白条的高度随高度变化而变化 最高可显示600m
+可以查看当前高度，白条的高度随高度变化而变化 最高可显示600m <img src="image/high (2).png" alt="Description" width="250"
 
 - 面板
+
 因为划分好了面板和其轴点，所以支持竖屏游玩
 
 ### 射线检测
-<img src="image/shexian.png" alt="Description" width="300">
-<img src="image/pingm.png" alt="Description" width="300">
+<img src="image/shexian.png" alt="Description" width="400">
+<img src="image/pingm.png" alt="Description" width="400">
 检测障碍物距离 用于避开障碍重新生成法阵
 
-<img src="image/4.png" alt="Description" width="350">
+<img src="image/4.png" alt="Description" width="400">
 
 
 chufa脚本中可修改识别距离和再生产距离
 
 ### Holokit双目渲染
-<img src="image/Holokit组件.png" alt="Description" width="300">
+<img src="image/Holokit组件.png" alt="Description" width="400">
 
 开启按钮在Time旁边的那个小旗子上
 
@@ -111,9 +104,11 @@ chufa脚本中可修改识别距离和再生产距离
 5. 🎵放歌功能 会循环播放东方红音乐 
 6. 📸Post-process功能 法阵箭头发光特效 穿过法阵的运镜炫光特效 全局的游戏调色滤镜
 
+
 ### In Progress
 1. 障碍识别 当识别到前方平面障碍时，法阵会向左右偏移避开障碍。
 （4.23已实现）-Ar平面射线检测+位置计算
+
 
 
 ### Planned计划中的
@@ -121,10 +116,12 @@ chufa脚本中可修改识别距离和再生产距离
 2. 法阵资产优化 特效优化
 3. 远程传输画面（虽然腾讯会议也可以）
 
+
 ### 课程规划 Course Syllabus
 第一到第五周 立题 储备基础知识
 
 第六到第八周 结课作业制作 拍视频 写readme 改善增加细节 查Bug🐞
+
 
 ### 学习路径 Learning path
 第一到第三周 C#语言基础学习 unity基础学习 
@@ -140,6 +137,7 @@ chufa脚本中可修改识别距离和再生产距离
 第七周 天空识别
 
 第八周 UI制作学习 
+
 
 
 ## 作者介绍 Author Introduction
