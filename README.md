@@ -51,6 +51,7 @@ can:🚁 🏃‍♀️ 🛹 🚲 🛴 🚕 👨‍🦽
 - Speed速度
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/Speed.png?raw=true)
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/speed%20(2).png?raw=true)
+
 将摄像机每秒位移与表盘旋转值和文本关联 当超过20m每秒时会到20处停止
 
 - time时间
@@ -70,16 +71,27 @@ can:🚁 🏃‍♀️ 🛹 🚲 🛴 🚕 👨‍🦽
 - hight高度
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/High.png?raw=true)
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/high%20(2).png?raw=true)
+
 可以查看当前高度，白条的高度随高度变化而变化 最高可显示600m
 
 - 面板
 因为划分好了面板和其轴点，所以支持竖屏游玩
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/shu.jpg?raw=true)
 
+### 射线检测
+![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/shexian.png?raw=true)
+![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/pingm.png?raw=true)
+检测障碍物距离 用于避开障碍重新生成法阵
+![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/4.png?raw=true)
 
+chufa脚本中可修改识别距离和再生产距离
 
+### Holokit双目渲染
+![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/Holokit%E7%BB%84%E4%BB%B6.png?raw=true)
 
+开启按钮在Time旁边的那个小旗子上
 
+有了这个功能，就可以用Holokit在陆地上体验了。滑板轮椅走路都可以👍
 
 ## 👹RoadMap
 
@@ -94,7 +106,7 @@ can:🚁 🏃‍♀️ 🛹 🚲 🛴 🚕 👨‍🦽
 ### In Progress
 1. 障碍识别 当识别到前方平面障碍时，法阵会向左右偏移避开障碍。
 （4.23已实现）-Ar平面射线检测+位置计算
-![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/4.png?raw=true)
+
 
 ### Planned计划中的
 1. 检验前方障碍，将法阵直接生成在无障碍的位置
@@ -120,25 +132,6 @@ can:🚁 🏃‍♀️ 🛹 🚲 🛴 🚕 👨‍🦽
 第七周 天空识别
 
 第八周 UI制作学习 
-
-## 使用建议 Function Overview and Usage Recommendations
-
- :bangbang: 游戏建议定制内容： 
-
-- 时间
-    
-    time c8 (public static int allTime = 60;) 
-    
-    将值设定成你想要的秒数 
-- 两法阵随机距离 
-    
-    chufa c117（Vector3 move = new Vector3(0f,0.2f,Random.Range(2f,4f));）
-    
-    将值设定成你想要的变化范围
-- 游戏开始高度 
-    chufa c101（if (man.transform.position.y > initialYPos + 1f && hasMovedUp==false)）
-
-    将1f改为你想要的高度 单位为米
 
 
 ## 作者介绍 Author Introduction
