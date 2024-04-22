@@ -50,13 +50,11 @@ can:🚁 🏃‍♀️ 🛹 🚲 🛴 🚕 👨‍🦽
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/UI%E5%88%97%E8%A1%A8.png?raw=true)
 - Speed速度
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/Speed.png?raw=true)
-![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/speed%20(2).png?raw=true)
 
 将摄像机每秒位移与表盘旋转值和文本关联 当超过20m每秒时会到20处停止
 
 - time时间
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/Time.png?raw=true)
-![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/time%20(2).png?raw=true)
 
 旗子用于点击开启holokit双目渲染 
 
@@ -70,7 +68,6 @@ can:🚁 🏃‍♀️ 🛹 🚲 🛴 🚕 👨‍🦽
 
 - hight高度
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/High.png?raw=true)
-![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/high%20(2).png?raw=true)
 
 可以查看当前高度，白条的高度随高度变化而变化 最高可显示600m
 
