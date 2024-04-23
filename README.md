@@ -54,6 +54,17 @@ can:🚁 🏃‍♀️ 🛹 🚲 🛴 🚕 👨‍🦽
 <img src="image/Shader.png" alt="Description" width="270">
 
 
+shan脚本
+
+控制箭头随音乐节奏闪烁。
+
+<img src="image/shan.png" alt="Description" width="270">
+
+bird 脚本
+
+控制飞鸟环绕摄像机。
+
+<img src="image/bird.png" alt="Description" width="270">
 ### UI
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/UI.png?raw=true)
 
