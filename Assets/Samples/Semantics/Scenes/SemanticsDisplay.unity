@@ -586,6 +586,8 @@ MonoBehaviour:
   sunProfab: {fileID: 253854481384266657, guid: b75f3cc1e6117c440978be67dcb496d7, type: 3}
   jiantou: {fileID: 1223050434}
   jiantouProfab: {fileID: 4892359686019766334, guid: b9d5ead253690464881dbad00329783e, type: 3}
+  object1: {fileID: 0}
+  object2: {fileID: 0}
   scriptB: {fileID: 468561452}
   text: {fileID: 235476069}
   postProcessVolume: {fileID: 1631922812}
@@ -2241,7 +2243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 366751848601553890, guid: 19ea2ad2f56d2e24cb2a5428e467fe6f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 366751848601553902, guid: 19ea2ad2f56d2e24cb2a5428e467fe6f, type: 3}
       propertyPath: m_Enabled
