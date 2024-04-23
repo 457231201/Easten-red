@@ -66,6 +66,7 @@ bird 脚本
 
 <img src="image/bird.png" alt="Description" width="270">
 ### UI
+
 ![GitHub Logo](https://github.com/457231201/Easten-red/blob/main/image/UI.png?raw=true)
 
 <img src="image/123.png" alt="Description" width="350">
